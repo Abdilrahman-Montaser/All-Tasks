@@ -1,0 +1,91 @@
+body {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.headings h4 {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.headings h2 {
+  font-size: 45px;
+  font-family: "Caveat", cursive;
+  font-weight: 700;
+  color: #111;
+}
+
+.headings span {
+  display: block;
+  width: 10px;
+  height: 10px;
+  background-color: #00c3c5;
+  margin: 10px auto 30px;
+  transform: rotate(45deg);
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 300px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  overflow: hidden;
+  text-align: left;
+}
+
+.card-image img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.dates {
+  padding: 10px 20px 0;
+  font-size: 13px;
+  color: #666;
+}
+
+.dates .date {
+  font-style: italic;
+  color: #00c3c5;
+}
+
+.dates .admin {
+  margin-left: 8px;
+
+}
+
+.card-content {
+  padding: 10px 20px 20px;
+}
+
+.card-content h4 {
+  font-size: 22px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-style: italic;
+  font-family: "Caveat", cursive;
+}
+
+.card-content p {
+  font-size: 14px;
+  color: #555;
+  line-height: 1.5;
+}
+
+button {
+  margin-top: 30px;
+  padding: 10px 25px;
+  background-color: #00c3c5;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+}
