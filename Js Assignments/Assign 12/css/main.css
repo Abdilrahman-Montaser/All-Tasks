@@ -1,0 +1,40 @@
+.layer {
+  position: fixed;
+  inset: 0;
+  background: rgb(0, 0, 0, .5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-box {
+  width: 800px;
+  height: 400px;
+  background-image: url("../work-1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  position: relative;
+}
+
+i {
+  font-size: 24px;
+  cursor: pointer;
+}
+
+i.fa-square-xmark {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+}
+
+.d-none {
+  display: none;
+}
+
+.d-flex {
+  display: flex;
+}
